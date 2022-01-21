@@ -1,0 +1,50 @@
+body{
+      background: #bdc3c7;
+      background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+      background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+      
+}
+#clock-container{
+      background: linear-gradient(to right, #132c33b9, #2a6e7796);
+      margin: 0 auto;
+      margin-top: 80px;
+      height: 200px;
+      width: 320px;
+      font-family: 'Poppins';
+      font-size: 30px;
+      font-weight: bold;
+      position: relative;
+      box-shadow: 4px 4px 22px 15px #269dad56;
+      filter: blur();
+      -webkit-box-reflect: below 22px;
+      
+}
+#clock {
+      align-items: center;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: #d8e3e7c4;
+      width: 220px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 22px rgba(255, 255, 255, 0.452);
+}
+#clock p {
+      
+      text-align: center;
+      padding: 0 20px;
+      color: #070707b9;
+}
+
+#title{
+      font-size: 28px;
+      background: #51c4d3b6;
+      color: #c4c4c4ce;
+      width: 100px;
+      text-align: center;
+      position: absolute;
+      border-radius: 5px;
+      top: -50px;
+      left: 34%;
+      box-shadow: 2px 2px 25px rgba(255, 255, 255, 0.432);
+}
